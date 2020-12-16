@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Formulário de Contato</h1>
+    <form action="endponit" method="POST">
+        <fieldset class="contato">
+            <label for="Nome">Nome: </label>
+            <input type="text" name="nome" id="nome" placeholder="Nome" required>
+
+            <label for="Nome">Sobrenome: </label>
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
+
+            <br>
+            <br>
+            <label for="email">E-mail: </label>
+            <input type="text" name="email" id="email" placeholder="user@email.com.br" required>
+
+            <label for="password">Password:</label>
+            <input type="password" name="senha" id="senha" placeholder="*****">
+
+            <br>
+            <br>
+            <label for="assunto">Assunto:</label>
+            <select name="Assunto" id="assunto">
+                <option value="Escolha">Selecione...</option>
+                <optgroup label="Informações">
+                    <option value="InfFinanc">Financeiras</option>
+                    <option value="InfProdutos">Produtos</option>
+                    <option value="InfAtend">Atendimento</option>
+                </optgroup>
+                <optgroup label="Reclamações">
+                    <option value="RecFinanc">Financeiras</option>
+                    <option value="RecProdutos">Produtos</option>
+                    <option value="RecAtend">Atendimento</option>
+                </optgroup>
+                <optgroup label="Elogios">
+                    <option value="ElgProdutos">Produtos</option>
+                    <option value="ElgAtend">Atendimento</option>
+                </optgroup>
+                <option value="Outros">Outros</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="idade">Idade: </label>
+            <select name="Idade" id="idade">
+                <option value="">Escolha:</option>
+                <option value="18">15</option>
+                <option value="18">16</option>
+                <option value="18">17</option>
+                <option value="18">18</option>
+                <option value="18">19</option>
+                <option value="18">20</option>
+                <option value="18">21</option>
+                <option value="18">22</option>
+                <option value="18">23</option>
+                <option value="18">24</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="filhos">Quantos filhos?</label>
+            <select name="Filhos" id="filhos">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <br>
+            <br>
+            <h3>Gênero: </h3>
+            <label for="feminino">Feminino</label>
+            <input type="radio" name="genero" id="feminino" value="Feminino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="masculino" value="Masculino">
+            <label for="">Prefiro não responder</label>
+            <input type="radio" name="genero" id="prefiro" value="Prefiro não responder">
+            <br>
+            <br>
+            <h3>Raça</h3>
+            <label for="branco">Branco</label>
+            <input type="checkbox" name="raca" id="branco" value="Branco">
+            <label for="preto">Preto</label>
+            <input type="checkbox" name="raca" id="preto" value="Preto">
+            <label for="pardo">Pardo</label>
+            <input type="checkbox" name="raca" id="pardo" value="Pardo">
+            <label for="amarelo">Amarelo</label>
+            <input type="checkbox" name="raca" id="amarelo" value="Amarelo">
+            <label for="ingigena">Indígena</label>
+            <input type="checkbox" name="raca" id="Indígena" value="indigena">
+            <br>
+            <br>
+            <h3>Passatempo:</h3>
+            <label for="Leitura">Leitura</label>
+            <input type="checkbox" name="passatempo" id="leitura" value="Leitura">
+
+            <label for="Ir ao Shopping">Ir ao Shopping</label>
+            <input type="checkbox" name="passatempo" id="irAoShopping" value="Ir ao Shopping">
+
+            <label for="Esportes">Esportes</label>
+            <input type="checkbox" name="passatempo" id="esportes" value="Esportes">
+
+            <label for="Cinema">Cinema</label>
+            <input type="checkbox" name="passatempo" id="cinema" value="Cinema">
+
+            <label for="Outro">Outro</label>
+            <input type="checkbox" name="passatempo" id="outro" value="Outro">
+            <br>
+            <br>
+            <div>
+                <label for="comentarios">Comentários</label><br>
+                <textarea name="mensagem" rows="5" cols="100" style="resize: none;" placeholder="Deixe sua mensagem"
+                    required></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+            <button type="submit">Excluir</button>
+        </fieldset>
+    </form>
+    <a href="https://google.com" target="_blank">Google |</a>
+    <a href="https://google.com" target="_blank">Google |</a>
+    <a href="https://google.com" target="_blank">Google |</a>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 0px 100px 0px 100px;
+   
+}
+#cabecalho {
+    background-color: purple;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+h2 {
+    font-style: unset;
+    text-decoration: underline;
+}
+p {
+    text-align: justify;
+    font-size: 14px;w
+}
+p .titulo2 {
+    font-weight: bold;
+    text-align: center;    
+}
+
+.contato {
+    text-align: center;
+}
+
+textarea {
+    resize: vertical;
+}
+footer{
+    background-color: white;
+    text-align: center;
+}
+

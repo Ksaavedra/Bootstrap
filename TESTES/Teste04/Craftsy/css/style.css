@@ -1,0 +1,136 @@
+  
+body{
+    margin: 0;
+    padding: 0 12%;
+    box-sizing: border-box;
+    background: url(../img/capa.png);
+    background-size: 100%;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    top: 1px;
+    z-index: 999;
+}
+
+#btn-logo{
+    z-index: 99;
+}
+
+.logo{
+    width: 85px;
+    margin-right: -10px;
+}
+
+nav{
+    display: inline-block;
+}
+
+ul{
+    display: inline-block;
+    float: none;
+    padding: 15px 0;
+    width: 925px;
+    list-style: none;
+    border-left: none;
+    background-color: #f05331;
+    z-index: 9;
+}
+
+li{
+    margin: auto 15px;
+    display: block;
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #ee907b;
+    transition: all .2s ease-in .2s;
+    -webkit-transition: all .2s ease-in .2s;
+    -moz-transition: all .2s ease-in .2s;
+    -ms-transition: all .2s ease-in .2s;
+    -o-transition: all .2s ease-in .2s;
+}
+
+#btn-container{
+    display: inline-block;
+    width: 954px;
+    background-color: #fff;
+    position: relative;
+    top: 120px;
+    left: 35px;
+    padding: 10px 5px;
+}
+
+figure{
+    width: 300px;
+    margin: 9px;
+    float: left;
+}
+
+figure img{
+    margin-top: -27px;
+}
+
+#btn-imagens{
+    position: relative;
+    float: right;
+    width: 50px;
+    top: 30px;
+    right: 20px;
+}
+
+.btn-celulares {
+    width: 100%;
+}
+
+figcaption{
+    position: relative;
+    top: 95px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    padding: 6px;
+    font-weight: 400;    
+    width: inherit;
+    max-width: 288px;
+    text-align: center;
+}
+
+p {
+    display: block;
+    margin: auto 50px;
+}
+
+.btn-ver-mais{
+    position: absolute;
+    color: #ffffff;
+    background-color: #df7057;
+    padding: 10px;
+    width: 85px;
+    display: block;
+    margin-left: 35%;
+    margin-top: 20%;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+.btn-ver-mais:hover{
+    background-color: #ee907b;
+    transition: all .2s ease-in .2s;
+    -webkit-transition: all .2s ease-in .2s;
+    -moz-transition: all .2s ease-in .2s;
+    -ms-transition: all .2s ease-in .2s;
+    -o-transition: all .2s ease-in .2s;
+}

@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-left: 22%;
+}
+
+.blocoAD {   
+    width: 930px;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: darkmagenta;
+
+    text-align: center;
+    border: solid 5px black;
+}
+
+.blocoBC {
+    width: 930px;
+}
+
+.blocoB {
+    background-color: darkmagenta;
+    width: 300px;
+    float: left;
+    text-align: center;
+    font-size: 20px;    
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid 5px black;
+}
+
+.blocoC {
+    background-color: darkmagenta;;
+    width: 630px;
+    text-align: center;
+    font-size: 20px;    
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid 5px black;
+}
+
+.blocoD {
+    width: 630px;
+}
+
+.item {
+    display: inline-block;
+    height: 350px;
+}
+
+.img {
+    display: inline-block;
+    width: 50%;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
