@@ -1,0 +1,51 @@
+body {
+    background-color: #529CB9;
+    font-family: sans-serif;
+    text-align: center;
+}
+h1{
+    background-color: rosybrown;
+}
+p{
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    text-decoration: overline;
+    line-height: 21px;
+}
+textarea{
+    resize: none;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #2EC973;
+}
+a:hover{
+    color: #023A1B;
+    text-decoration: underline;
+}
+a:active{
+    color: white;
+}
+input{
+    background-color: rgb(201, 195, 195);
+}
+input:focus{
+    background-color: white;
+}
+#link1{
+    color: #2EC973;
+}
+#link2{
+    color: #023A1B;
+}
+#link3{
+    color : pink;
+}
+
+.exemple{
+    color: white;
+}
+
