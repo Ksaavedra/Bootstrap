@@ -1,0 +1,36 @@
+.titulo{
+    margin: 2% 30%;
+    padding: 0% 7%;
+    width: 35%;
+    text-align: center;
+}
+#jogo{
+    width:452px;
+    height:392px;
+    border:solid 3px;
+    margin: 5% 30%;
+    margin-top: 0%;
+    border-radius: 5px;
+    background: thistle;
+    color: blueviolet;
+}
+.linha{
+    height:129px;
+    border-bottom:solid 3px;
+    border-right: none;
+}
+.quadro{
+    width:148px;
+    height:100%;
+    border-right:solid 3px;
+    float:left;
+}
+.buttom{
+    margin: 387px;
+    width: 35%;
+    margin-top: -40px;
+}
+#jogador{
+    display: inline;
+    color: blueviolet;
+}
