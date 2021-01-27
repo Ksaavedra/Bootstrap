@@ -1,7 +1,7 @@
-// $(".alert") //Pegando o elemento pela classe
-$("#alerta") //Pegando o elemento pela id
+// $(".alert") // Pegando o elemento pela classe
+$("#alerta"); // Pegando o elemento pelo ID
 
-// document.getElementById("alerta").innerHTML = "Olá JQuery";
-$("#alerta").text("Ola JQuery!");
+// document.getElementById("alerta").innerText = "Olá JQuery";
+$("#alerta").text("Olá JQuery!"); //
 $("#alerta").removeClass("alert-primary");
 $("#alerta").addClass("alert-warning");

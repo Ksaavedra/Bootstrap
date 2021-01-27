@@ -1,0 +1,14 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "nome": "Kelly Michele",
+            "cidade": "São Paulo/SP"
+        },
+        {
+            "id": 2,
+            "nome": "David",
+            "cidade": "São Paulo/SP"
+        }
+    ]
+}
