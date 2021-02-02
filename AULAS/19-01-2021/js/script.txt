@@ -1,0 +1,54 @@
+function envio(){
+    var nome = $("#nome").val(); 
+    //document.getElementById('nome').value;
+    var cidade = $("#cidade").val();
+
+    $.ajax({
+        method: "POST",
+        url: "http://localhost:3000/usuarios",
+        data: {
+            "id": (Math.floor(Math.random() * 1000) + 1),
+            "nome": nome,
+            "cidade": cidade
+        },
+        success: function(){
+            alert('Dados salvos com sucesso!');
+        },
+        error: function(){
+            alert('Ocorreu um erro inesperado!');          
+        }
+    });
+}
+//http://localhost:3000/usuarios/2
+function buscar (id){
+    $.get("http://localhost:3000/usuarios/"+id, function( data ) {
+        $("#nome").val(data.nome);
+        $("#cidade").val(data.cidade);
+    });
+}
+    /*
+    $.ajax({
+        method: "POST",
+        url: "http://localhost:3000/usuarios",
+        data: { 
+            "id": id,
+            "nome": nome,
+            "cidade": cidade
+        },
+        success: function(){
+            alert("Dados inseridos com sucesso!");
+        },
+        error: function(){
+            alert("Dados não inseridos!");
+        }
+    })  
+}   
+
+function buscar (id){
+    $.get("http://localhost:3000/usuarios/"+id, function( data ) {
+        $("#id").val(data.id); 
+        $("#nome").val(data.nome);
+        $("#cidade").val(data.cidade);
+    });
+}
+*/
